@@ -1,0 +1,21 @@
+﻿生成启动时间为 2022/2/10 21:37:36。
+     1>项目“D:\我的项目\Project2\Project2\Project2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt "源.cpp"
+         源.cpp
+       Link:
+         D:\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\我的项目\Project2\x64\Debug\Project2.exe" /INCREMENTAL /NOLOGO libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\我的项目\Project2\x64\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\我的项目\Project2\x64\Debug\Project2.lib" /MACHINE:X64 "x64\Debug\源.obj"
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_global_init，该符号在函数 main 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_global_cleanup，该符号在函数 main 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_strerror，该符号在函数 main 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_init，该符号在函数 "enum CURLcode __cdecl curl_get_req(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?curl_get_req@@YA?AW4CURLcode@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV23@@Z) 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_setopt，该符号在函数 "enum CURLcode __cdecl curl_get_req(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?curl_get_req@@YA?AW4CURLcode@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV23@@Z) 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_perform，该符号在函数 "enum CURLcode __cdecl curl_get_req(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?curl_get_req@@YA?AW4CURLcode@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV23@@Z) 中被引用
+     1>源.obj : error LNK2019: 无法解析的外部符号 __imp_curl_easy_cleanup，该符号在函数 "enum CURLcode __cdecl curl_get_req(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?curl_get_req@@YA?AW4CURLcode@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV23@@Z) 中被引用
+     1>libcurl.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+     1>D:\我的项目\Project2\x64\Debug\Project2.exe : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“D:\我的项目\Project2\Project2\Project2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.18
